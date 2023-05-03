@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Cipher</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1 class="title logo"><a href="index.html" class="logo-link">CIPHER</a></h1>
+		</header>
+		<main>
+			<div id="root">
+				<h1 class="title">¡Bienvenida a CIPHER!</h1>
+			</div>
+			<section id="descripcion">
+				<p>CIPHER te ayudará a cifrar o descifrar mensajes encriptados usando el cifrado César (si, como el dictador romano).<br>Aprieta el botón correspondiente para lo que deseas hacer.</p>
+			</section>
+			<section id="cipher">
+				<div class="container">
+					<label for="mensaje">¿Qué quieres hacer? ¿Cifrar o descifrar? Escribe abajo el mensaje:</label>
+					<br>
+					<textarea name="mensaje" id="mensaje" placeholder="Tu mensaje aquí..."></textarea>
+					<br>
+					<div class="container-btns">
+						<button type="submit" class="btn" id="cifrar">Cifrar</button>
+						<input type="text" placeholder="Llave" id="key">
+						<button type="submit" class="btn" id="descifrar">Descifrar</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer></footer>
+		<script src="index.js" type="module"></script>
+	</body>
 </html>

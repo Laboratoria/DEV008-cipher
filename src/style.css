@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	background: linear-gradient(40deg, rgba(207,25,219,1) 0%, rgba(14,41,143,1) 50%, rgba(13,172,227,1) 100%);
+	color: #fff;
+	width: 100vw;
+	height: 100vh;
+}
+
+.title {
+	font-family: 'Patua One', cursive;
+	font-size: 2.6em;
+	text-shadow: 1px 1px 6px #1a1f3d;
+}
+
+.logo {
+	font-size: 1.6em;
+}
+
+.logo-link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn {
+	font-size: inherit;
+	font-weight: 600;
+	padding: 0.6em;
+	margin: 0 1em;
+	min-width: 6em;
+	border-style: none;
+	background-color: #0e298f;
+	color: #fff;
+	border-radius: 0.4em;
+}
+
+.btn:hover {
+	background: linear-gradient(40deg, rgba(207,25,219,1) 0%, rgba(13,172,227,1) 100%);
+}
+
+.btn:active {
+	background: linear-gradient(40deg, rgba(243,53,255,1) 0%, rgba(45,250,255,1) 100%);
+	box-shadow: 1px 1px 6px #1a1f3d;
+}
+
+main, .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main #root, 
+main #descripcion {
+	text-align: center;
+}
+
+#descripcion {
+	font-style: italic;
+	text-shadow: 1px 1px 4px #1a1f3d;
+	margin-bottom: 1.4em;
+}
+
+#descripcion,
+label, #mensaje {
+	font-size: 1.2em;
+}
+
+.container,
+.container-resultado {
+	background-color: #fff;
+	color: #000;
+	width: 80vw;
+	min-width: 480px;
+	border-radius: 0.4em;
+	padding: 2em;
+	box-shadow: 2px 2px 8px #1a1f3d;
+}
+
+#mensaje {
+	width: 80%;
+	height: 10em;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0.8em 1em;
+}
+
+#key {
+	width: 2.6em;
+	height: 1.8em;
+	text-align: center;
+}
+
+#regresar {
+	margin: 0;
+}
