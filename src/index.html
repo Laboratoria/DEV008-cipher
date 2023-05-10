@@ -14,23 +14,25 @@
 				<h1 class="title">¡Bienvenida a CIPHER!</h1>
 			</div>
 			<section id="descripcion">
-				<p>CIPHER te ayudará a cifrar o descifrar mensajes encriptados usando el cifrado César (si, como el dictador romano).<br>Aprieta el botón correspondiente para lo que deseas hacer.</p>
+				<p>¿Quieres enviar un mensaje que solo el destinatario pueda descifrar?<br>¿Quizas una carta de amor secreta? ¿O solo quieres divertirte con tus amigos mandando mensajes secretos?<br>CIPHER te ayudará a cifrar o descifrar mensajes encriptados usando el cifrado César (si, como el dictador romano).<br>Aprieta el botón correspondiente para lo que deseas hacer.</p>
 			</section>
 			<section id="cipher">
 				<div class="container">
 					<label for="mensaje">¿Qué quieres hacer? ¿Cifrar o descifrar? Escribe abajo el mensaje:</label>
 					<br>
-					<textarea name="mensaje" id="mensaje" placeholder="Tu mensaje aquí..."></textarea>
+					<textarea name="mensaje" id="txt" placeholder="Tu mensaje aquí..."></textarea>
 					<br>
 					<div class="container-btns">
-						<button type="submit" class="btn" id="cifrar">Cifrar</button>
+						<button class="btn" id="cifrar">Cifrar</button>
 						<input type="text" placeholder="Llave" id="key">
-						<button type="submit" class="btn" id="descifrar">Descifrar</button>
+						<button class="btn" id="descifrar">Descifrar</button>
 					</div>
 				</div>
 			</section>
 		</main>
-		<footer></footer>
+		<footer>
+			<p>&copy 2023. Jazmín Grajales.</p>
+		</footer>
 		<script src="index.js" type="module"></script>
 	</body>
 </html>

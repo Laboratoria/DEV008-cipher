@@ -9,6 +9,10 @@ html {
 	height: 100vh;
 }
 
+h1 {
+	margin: 0.5em 0;
+}
+
 .title {
 	font-family: 'Patua One', cursive;
 	font-size: 2.6em;
@@ -59,11 +63,12 @@ main #descripcion {
 #descripcion {
 	font-style: italic;
 	text-shadow: 1px 1px 4px #1a1f3d;
-	margin-bottom: 1.4em;
+	margin-bottom: 0.6em;
+	margin-top: 0.2em;
 }
 
 #descripcion,
-label, #mensaje {
+label, #txt {
 	font-size: 1.2em;
 }
 
@@ -78,7 +83,7 @@ label, #mensaje {
 	box-shadow: 2px 2px 8px #1a1f3d;
 }
 
-#mensaje {
+#txt {
 	width: 80%;
 	height: 10em;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -93,4 +98,10 @@ label, #mensaje {
 
 #regresar {
 	margin: 0;
+}
+
+footer p {
+	text-align: center;
+	font-style: italic;
+	text-shadow: 1px 1px 4px #1a1f3d;
 }
