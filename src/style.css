@@ -1,0 +1,48 @@
+/*body{
+    background-image: url("https://cdn.dribbble.com/users/1030587/screenshots/2417829/media/393116fd8686d6ab6911eca0950b3f35.png");
+    background-repeat:unset;
+    background-size:cover;
+    background-position: auto;
+    font-weight: 500;
+
+
+}
+    
+h1 {
+
+    position: relative;
+    background-color: rgb(92, 170, 172);
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 50px;
+    
+
+
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    
+}
+
+h3{
+    position: relative;
+    background-color: rgb(92, 170, 172);
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 50px;
+    position:relative;
+    background-color: rgb(92, 170, 172);
+    padding: 30px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+ }
+
+ button{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+ }
+

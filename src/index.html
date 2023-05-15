@@ -3,12 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet"/>
+
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+
+    <h1> Cifrado</h1>
+    
+    <h3>Mensaje</h3>
+    <p><input type="text" id="mensaje"></p>
+    <h3>Desplazamiento</h3>
+    <p><input type="number" id="desplazamiento" min="1" max="26" placeholder="Máximo"></p>
+    <p><button  type="button" id="cifrar">Cifrar</button>
+    <button type="button" id="descifrar">Descifrar</button></p>
+    <h3>Mensaje Cifrado/Descrifrado</h3>
+
+    <div id="test"></div>
+
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
