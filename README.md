@@ -6,11 +6,10 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Agrega soporte para minúsculas y otros caracteres](#5-hito-opcional-agrega-soporte-para-minúsculas-y-otros-caracteres)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+* [5. Consideraciones técnicas](#6-consideraciones-técnicas)
+* [6. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
+* [7. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [8. Para considerar Project Feedback](#9-para-considerar-project-feedback)
 
 ***
 
@@ -112,18 +111,7 @@ preguntas sirven como guia:
 
 Con estos requisitos cumplidos puedes agendar un Project Feedback con unx coach.
 
-## 5. Hito Opcional: Agrega soporte para minúsculas y otros caracteres
 
-Las partes opcionales tienen como intención permitirte profundizar un poco más
-sobre los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y
-contras, decide sabiamente si quieres invertir el tiempo en profundizar/
-perfeccionar o aprender cosas nuevas en el siguiente proyecto.
-
-El hito de los críterios mínimos no menciona qué pasaría con las letras
-minúsculas y otros caracteres (como espacios, puntuación, ñ, ...).
-El _boilerplate_ incluye algunos _tests_ (comentados en principio)
-que puedes usar como punto de partida para implementar el soporte para
-estos casos adicionales.
 
 ## 6. Consideraciones técnicas
 
