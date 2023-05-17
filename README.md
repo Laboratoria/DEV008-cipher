@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. Historia](#1-Historia)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
@@ -14,7 +14,7 @@
 
 ***
 
-## 1. Preámbulo
+## 1.  Historia detrás del CIPHER CÉSAR
 
 Cifrar significa ocultar el contenido de un mensaje a simple vista, de manera
 que sólo las partes autorizadas pueden descifrar un texto cifrado.
@@ -45,25 +45,10 @@ aplicación en el sistema ROT13.
 
 ## 2. Resumen del proyecto
 
-En este proyecto crearás una aplicación web que servirá para que tu usuaria
-pueda cifrar y descifrar un texto en el navegador indicando un desplazamiento
-específico de caracteres (_offset_). Lo harás utilizando HTML, CSS y JavaScript.
-
-La temática es libre. Piensa en qué situaciones se necesitaría cifrar un mensaje.
-Decide cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
-colores, etc.) Algunas ideas de ejemplo:  
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre
-fundamentos de JavaScript, incluyendo conceptos como variables, condicionales,
-y funciones, así como eventos y manipulación básica del DOM, fundamentos de
-HTML y CSS. Mientras desarrollas este proyecto, te familiarizarás con nuevos
-conceptos también.
+El Proyecto "Cipher Cesar", se trata de que manera individual pueda el usuario 
+cifrar y descifrar un mensaje con el desplazamiento que quiera. Hacer desde cero
+todo, el esquema, el diseño, los parametros, el desplazamiento. Todo lo que 
+tiene que ver con el desarrollo de javascrit, css y html.
 
 ### Los objetivos generales de este proyecto son los siguientes
 
